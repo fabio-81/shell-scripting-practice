@@ -26,7 +26,12 @@ echo "The sum of $first_number and $second_number is:"
 expr $first_number + $second_number
 ;;
 "Subtract")
-echo "user has selected 'Subtract'"
+echo "Please first the first number'"
+read first_number
+echo "Please second the second number"
+read second_number
+echo "The difference of $first_number and $second_number is:"
+expr $first_number - $second_number
 ;;
 "Exit")
 echo "user has selected 'Exit'"
