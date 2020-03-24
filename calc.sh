@@ -16,4 +16,20 @@ echo "Please choose an option:"
 echo "Add"
 echo "Subtract"
 echo "Exit"
+
+# Then, capture the user selection.
 read selection
+
+# If the selection matches a supported operation, execute the operation.
+
+case $selection in
+"Add")
+echo "user has selected 'Add'"
+;;
+"Subtract")
+echo "user has selected 'Subtract'"
+;;
+"Exit")
+echo "user has selected 'Exit'"
+;;
+esac
