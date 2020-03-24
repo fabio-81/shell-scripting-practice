@@ -11,7 +11,7 @@
 # When the operation is complete, redisplay the menu.
 
 
-echo "Hello, welcome to the calculator program"
+echo "Hello, welcome to the calculator program."
 echo "Please choose an option:"
 echo "Add"
 echo "Subtract"
