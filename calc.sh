@@ -16,3 +16,4 @@ echo "Please choose an option:"
 echo "Add"
 echo "Subtract"
 echo "Exit"
+read selection
