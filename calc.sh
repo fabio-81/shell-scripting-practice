@@ -1,18 +1,18 @@
 
 # When the program is first loaded, display a greeting to the user.
-echo "Hello, welcome to the calculator program."
+echo $'Hello, welcome to the calculator program.\n'
 
-
+# keep prompting user until they exit the program.
 while true ;do
 # Then, display a menu that outlines the possible operations:
   # Add
   # Subtract
   # Exit
 
-echo "Please choose an option:"
-echo "Add"
-echo "Subtract"
-echo "Exit"
+echo $'Please choose an option:\n'
+echo $'Add\n'
+echo $'Subtract\n'
+echo $'Exit\n'
 
 # Then, capture the user selection.
 read selection
@@ -28,7 +28,7 @@ echo "The sum of $first_number and $second_number is:"
 expr $first_number + $second_number
 ;;
 "Subtract")
-echo "Please enter the first number'"
+echo "Please enter the first number"
 read first_number
 echo "Please enter the second number"
 read second_number
