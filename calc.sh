@@ -21,7 +21,7 @@ read selection
 
 case $selection in
 # If the selection matches a supported operation, execute the operation.
-"Add" | "add" | 1) #accepts upper and lowercase "A"
+"Add" | "add" | 1) #accepts upper and lowercase "A" as well as numeric value.
 echo "Please enter the first number"
 read first_number
 echo "Please enter the second number"
