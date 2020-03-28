@@ -12,6 +12,7 @@ while true ;do
 echo $'Please choose an option:\n'
 echo $'Add\n'
 echo $'Subtract\n'
+echo $'Divide\n'
 echo $'Multiply\n'
 echo $'Exit'
 
@@ -43,6 +44,14 @@ echo "Please enter the second number"
 read second_number
 echo "The multiplication of $first_number and $second_number is:"
 expr $first_number \* $second_number
+;;
+"Divide" | "divide")
+echo "Please enter the first number"
+read first_number
+echo "Please enter the second number"
+read second_number
+echo "The division of $first_number and $second_number is:"
+expr $first_number / $second_number
 ;;
 "Exit" | "exit")
 echo "Thanks for using the calculator, Goodbye."
