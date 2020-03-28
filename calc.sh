@@ -12,7 +12,7 @@ while true ;do
 echo $'Please choose an option:\n'
 echo $'Add\n'
 echo $'Subtract\n'
-echo $'Exit\n'
+echo $'Exit'
 
 # Then, capture the user selection.
 read selection
